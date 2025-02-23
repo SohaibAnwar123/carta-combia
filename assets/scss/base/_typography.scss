@@ -1,0 +1,41 @@
+h1 {
+    color: $pageTitleClr;
+    font-family: $fontPageTitle;
+    font-weight: bold;
+    font-style: normal;
+    font-size: clamp(26px, 3.77vw ,67px);
+}
+
+h2 {
+    text-transform: uppercase;
+    color: $itemTitleClr;
+    font-family: $fontItemTitle;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 140%;
+    font-size: clamp(18px, 3.29vw ,58px);
+}
+
+h3 {
+    font-family: $fontItemTitle;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 125%;
+    font-size: clamp(18px, 3.29vw ,58px);
+}
+
+
+ p {
+    font-weight: normal;
+    margin: 0;
+    font-family: $fontItemDetail;
+    font-weight: normal;
+    font-style: normal;
+    font-size: clamp(15px, 2.84vw ,50px);
+    line-height: 125%;
+}
+
+
+
+
+

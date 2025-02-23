@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Maiandra GD';
+    src: url('../fonts/MaiandraGD-Regular.eot');
+    src: url('../fonts/MaiandraGD-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MaiandraGD-Regular.woff2') format('woff2'),
+        url('../fonts/MaiandraGD-Regular.woff') format('woff'),
+        url('../fonts/MaiandraGD-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Copperplate Gothic';
+    src: url('../fonts/CopperplateGothic-Bold.eot');
+    src: url('../fonts/CopperplateGothic-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/CopperplateGothic-Bold.woff2') format('woff2'),
+        url('../fonts/CopperplateGothic-Bold.woff') format('woff'),
+        url('../fonts/CopperplateGothic-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Comic Sans MS';
+    src: url('../fonts/ComicSansMS-BoldItalic.eot');
+    src: url('../fonts/ComicSansMS-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ComicSansMS-BoldItalic.woff2') format('woff2'),
+        url('../fonts/ComicSansMS-BoldItalic.woff') format('woff'),
+        url('../fonts/ComicSansMS-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Segoe Print';
+    src: url('../fonts/SegoePrint-Bold.eot');
+    src: url('../fonts/SegoePrint-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/SegoePrint-Bold.woff2') format('woff2'),
+        url('../fonts/SegoePrint-Bold.woff') format('woff'),
+        url('../fonts/SegoePrint-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+

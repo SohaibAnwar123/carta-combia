@@ -1,0 +1,232 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css");
+@import url("https://use.fontawesome.com/releases/v5.8.1/css/all.css");
+@font-face {
+  font-family: "Maiandra GD";
+  src: url("../fonts/MaiandraGD-Regular.eot");
+  src: url("../fonts/MaiandraGD-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/MaiandraGD-Regular.woff2") format("woff2"), url("../fonts/MaiandraGD-Regular.woff") format("woff"), url("../fonts/MaiandraGD-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Copperplate Gothic";
+  src: url("../fonts/CopperplateGothic-Bold.eot");
+  src: url("../fonts/CopperplateGothic-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/CopperplateGothic-Bold.woff2") format("woff2"), url("../fonts/CopperplateGothic-Bold.woff") format("woff"), url("../fonts/CopperplateGothic-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Comic Sans MS";
+  src: url("../fonts/ComicSansMS-BoldItalic.eot");
+  src: url("../fonts/ComicSansMS-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/ComicSansMS-BoldItalic.woff2") format("woff2"), url("../fonts/ComicSansMS-BoldItalic.woff") format("woff"), url("../fonts/ComicSansMS-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Segoe Print";
+  src: url("../fonts/SegoePrint-Bold.eot");
+  src: url("../fonts/SegoePrint-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/SegoePrint-Bold.woff2") format("woff2"), url("../fonts/SegoePrint-Bold.woff") format("woff"), url("../fonts/SegoePrint-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  margin: 0;
+  color: #ffffff;
+}
+
+.main-wrapper {
+  position: relative;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+@media (min-width: 1600px) {
+  .container {
+    max-width: 1700px;
+  }
+}
+
+h1 {
+  color: #9e0b0f;
+  font-family: "Segoe Print";
+  font-weight: bold;
+  font-style: normal;
+  font-size: clamp(26px, 3.77vw, 67px);
+}
+
+h2 {
+  text-transform: uppercase;
+  color: #fec010;
+  font-family: "Comic Sans MS";
+  font-weight: bold;
+  font-style: normal;
+  line-height: 140%;
+  font-size: clamp(18px, 3.29vw, 58px);
+}
+
+h3 {
+  font-family: "Comic Sans MS";
+  font-weight: bold;
+  font-style: normal;
+  line-height: 125%;
+  font-size: clamp(18px, 3.29vw, 58px);
+}
+
+p {
+  font-weight: normal;
+  margin: 0;
+  font-family: "Maiandra GD";
+  font-weight: normal;
+  font-style: normal;
+  font-size: clamp(15px, 2.84vw, 50px);
+  line-height: 125%;
+}
+
+.main-wrapper {
+  background: url(../img/bg.png);
+  background-size: cover;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  padding: 0 50px;
+}
+
+.content-container {
+  padding: 70px 0 110px;
+}
+.content-container .page-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 13vw;
+  max-height: 227px;
+  min-height: 100px;
+  background: url(../img/paper-bg.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.content-container .page-content {
+  margin-top: 140px;
+}
+.content-container .page-content .menu-list {
+  padding-left: 40px;
+}
+.content-container .page-content .menu-list .menu-list-item {
+  margin-bottom: 65px;
+  position: relative;
+}
+.content-container .page-content .menu-list .menu-list-item::before {
+  content: "*";
+  position: absolute;
+  left: -40px;
+  font-weight: bold;
+  font-family: "Comic Sans MS";
+  font-style: italic;
+  top: 0;
+  font-size: clamp(22px, 3.29vw, 58px);
+  color: #fec010;
+  line-height: 125%;
+}
+.content-container .page-content .menu-list .menu-list-item .item-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content-container .page-content .menu-list .menu-list-item .item-details {
+  margin-left: 6px;
+  margin-top: 6px;
+}
+
+@media only screen and (max-width: 992px) {
+  .main-wrapper {
+    padding: 0 40px;
+  }
+  .content-container .page-content {
+    margin-top: 120px;
+  }
+  .content-container .page-content .menu-list {
+    padding-left: 30px;
+  }
+  .content-container .page-content .menu-list .menu-list-item {
+    margin-bottom: 40px;
+  }
+  .content-container .page-content .menu-list .menu-list-item::before {
+    left: -30px;
+  }
+}
+@media only screen and (max-width: 580px) {
+  .main-wrapper {
+    padding: 0 20px;
+  }
+  .content-container {
+    padding-top: 50px;
+    padding-bottom: 80px;
+  }
+  .content-container .page-content {
+    margin-top: 70px;
+  }
+  .content-container .page-content .menu-list {
+    padding-left: 20px;
+  }
+  .content-container .page-content .menu-list .menu-list-item {
+    margin-bottom: 30px;
+  }
+  .content-container .page-content .menu-list .menu-list-item::before {
+    left: -20px;
+  }
+  .content-container .page-content .menu-list .menu-list-item .item-title {
+    align-items: flex-start;
+  }
+}
+@media only screen and (max-width: 375px) {
+  h1 {
+    font-size: 22px;
+  }
+  h2 {
+    font-size: 14px;
+  }
+  h3 {
+    font-size: 14px;
+  }
+  p {
+    font-size: 12px;
+  }
+  .content-container .page-title {
+    min-height: 80px;
+  }
+  .content-container .page-content {
+    margin-top: 60px;
+  }
+}/*# sourceMappingURL=style.css.map */
